@@ -1,0 +1,44 @@
+.aboutDesc {
+  text-align: justify;
+  text-justify: inter-character;
+}
+.downloader {
+  text-align: right;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.downloadtxt {
+  font-size: x-large;
+}
+.contacts {
+  display: flex;
+  text-align: center;
+}
+.contacts a {
+  text-decoration: none !important;
+  color: unset;
+}
+.contacts i {
+  font-size: xx-large;
+  margin-right: 5pt !important;
+}
+.contacts span {
+  line-height: 1.75;
+  margin: auto 0 !important;
+  vertical-align: middle;
+}
+.contactsLogo {
+  flex: 100%;
+  justify-content: space-around;
+  display: inline;
+}
+a .contactsLogo {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 625px) {
+  .contacts {
+    display: unset !important;
+  }
+}
